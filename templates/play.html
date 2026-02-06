@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <!-- Title and Icon -->
+  <title id="pageTitle">Zoomumba</title>
+  <link rel="shortcut icon" href="{{ASSETSIP}}/assets/favicon.ico" />
+  <link rel="icon" type="image/png" href="{{ASSETSIP}}/assets/favicon.ico" />
+  <script type="text/javascript" src="{{ASSETSIP}}/assets/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="./styles/swfobject.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ASSETSIP}}/assets/css/play.css" />
+  <script src="https://kit.fontawesome.com/9184ea9ca6.js" crossorigin="anonymous"></script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+    .frame-container, 
+    .client-frame, 
+    #client-placeholder {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- EMBED GAME -->
+  <div class="frame-container">
+    <div class="client-frame">
+      <div class="payment hidden" id="payment">
+        <div class="payment-close" id="paymentClose" onclick="hidePayment();"></div>
+        <div id="paymentIframe"></div>
+      </div>
+      <div class="profile hidden" id="profile">
+        <div class="profile-close" id="profileClose" onclick="hideProfilePage();"></div>
+        <div id="profileIframe"></div>
+      </div>
+      <div id="client-placeholder">
+        <div style="text-align:center">
+          <a href="https://www.adobe.com/go/getflashplayer" target="_blank">
+            <img src="{{ASSETSIP}}/assets/img/global/get_flash.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var flashVars = {
+      uId: '{{userid}}',
+      token: '{{token}}',
+      apiHost: '{{SERVERIP}}',
+      cdnHost: '{{SERVERIP}}/assets',
+      locale: 'cs',
+      preCv: 'largeplanes',
+      isHTTPS: '{{isHTTPS}}',
+      eventStreamContext: "",
+      openSocial: 0,
+      ssoUser: 0,
+      friendInvite: 0,
+      logging: 0,
+      tutS: '{{tutS}}',
+      tutT: '{{tutT}}'
+    };
+
+    var flashParams = {
+      menu: 'false',
+      scale: 'showAll',
+      allowFullscreen: 'true',
+      allowFullScreenInteractive: 'true',
+      allowScriptAccess: 'always',
+      bgcolor: '#000000',
+      wmode: 'direct'
+    };
+
+    var flashAttributes = {
+      id: 'Skyrama_Flash',
+      name: 'Skyrama_Flash_Name',
+      align: 'middle'
+    };
+
+    swfobject.embedSWF(
+      './Main.swf',
+      'client-placeholder',
+      '100%',
+      '100%',
+      '10.2.0',
+      '{{ASSETSIP}}/assets/js/expressInstall.swf',
+      flashVars,
+      flashParams,
+      flashAttributes
+    );
+  </script>
+</body>
+</html>

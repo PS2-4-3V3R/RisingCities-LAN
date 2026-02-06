@@ -1,0 +1,186 @@
+{
+  "p": [],
+  "pe": [],
+  "pl": [],
+  "pt": [],
+  "l": [
+    {
+      "id": 1,
+      "l": 1,
+      "nid": 2,
+      "pid": 0,
+      "xp": 0,
+      "axp": 100,
+      "qs": 1,
+      "o": []
+    },
+    {
+      "id": 2,
+      "l": 2,
+      "nid": 3,
+      "pid": 1,
+      "xp": 100,
+      "axp": 999999,
+      "qs": 1,
+      "o": []
+    }
+  ],
+  "i": [],
+  "a": [],
+  "r": [
+    {
+      "id": 1000,
+      "t": "RES_XP",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1001,
+      "t": "CURR_VIRT",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 1000,
+      "es": []
+    },
+    {
+      "id": 1002,
+      "t": "CURR_REAL",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1003,
+      "t": "RES_ENERGY_POSITIVE",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1004,
+      "t": "RES_ENERGY_NEGATIVE",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1005,
+      "t": "RES_MOOD_POSITIVE",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1006,
+      "t": "RES_MOOD_NEGATIVE",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1007,
+      "t": "POPULATION",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1008,
+      "t": "POP_WORKER",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1009,
+      "t": "POP_RICH",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1010,
+      "t": "POP_TEACHER",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1011,
+      "t": "CURR_PROD",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    },
+    {
+      "id": 1012,
+      "t": "CURR_EDUC",
+      "l": 1,
+      "s": false,
+      "b": false,
+      "g": false,
+      "c": 10000,
+      "es": []
+    }
+  ],
+  "t": [],
+  "go": [],
+  "q": [],
+  "pp": [],
+  "pr": [],
+  "gr": [],
+  "inv": [],
+  "prs": [],
+  "pra": [],
+  "prl": [],
+  "bs": [],
+  "ibs": [],
+  "bal": [],
+  "re": [],
+  "ue": [],
+  "prt": [],
+  "imp": [],
+  "db": [],
+  "ft": [],
+  "w": [],
+  "mb": [],
+  "c": [],
+  "cf": [],
+  "v": 1
+}
